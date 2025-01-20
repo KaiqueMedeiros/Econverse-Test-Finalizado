@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './styles/global.scss'
+import Header from './components/Header/Header'
+import ImageBanner from './components/ImageBanner/ImageBanner'
+import MenuItem from './components/MenuItem/MenuItem'
+import NavBarVitrine from './components/NavBarVitrine/NavBarVitrine'
+import Vitrine1 from './components/Vitrine1/Vitrine1'
+import BannersApoio from './components/BannersApoio/BannersApoio'
+import NaveguePorMarcas from './components/NaveguePorMarcas/NavueguePorMarcas'
+import NavBarVitrine2 from './components/NavBarVitrine2/NavBarVitrine2'
+import Newsletter from './components/Newsletter/Newsletter'
+import Footer from './components/Footer/Footer'
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <ImageBanner/>
+      <MenuItem/>
+      <NavBarVitrine />
+      <Vitrine1/>
+      <BannersApoio/>
+      <NaveguePorMarcas/>
+      <NavBarVitrine2/>
+      <Vitrine1/>
+      <BannersApoio/>
+      <NaveguePorMarcas/>
+      <NavBarVitrine2/>
+      <Vitrine1/>
+      <Newsletter />
+      <Footer/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #271c47;
+  margin-top: 75px;
+}
+
+.left {
+  flex: 1;
+  padding-right: 20px;
+  margin-left: 50px;
+}
+
+.left h2 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.left p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 8px;
+}
+
+.input {
+  width: 233px;
+  height: 42px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  text-decoration: none;
+}
+.input:focus {
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.button {
+  width: 157px;
+  height: 42px;
+  background-color: #F7CA11;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #161615;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+}
+
+.button:hover {
+  background-color: #d6af12;
+}
+
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+label {
+  font-size: 14px;
+  color: #fff;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .left {
+    flex: 1;
+    margin-left: 0;
+    text-align: center;
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .left h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .left p {
+    font-size: 14px;
+  }
+
+  .right {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form {
+    flex-direction: column; 
+    width: 100%;
+    gap: 16px; 
+  }
+
+  .input {
+    width: 100%; 
+    max-width: 250px; 
+    height: 40px;
+    padding-left: 20px;
+    box-sizing: border-box; 
+  }
+
+  .button {
+    width: 100%;
+    max-width: 250px; 
+    height: 45px;
+    margin-left: 0; 
+    box-sizing: border-box; 
+  }
+
+  .checkboxContainer {
+    display: flex; 
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .checkbox {
+    margin-right: 10px;
+  }
+
+  label {
+    font-size: 14px;
+    color: #fff;
+  }
+}

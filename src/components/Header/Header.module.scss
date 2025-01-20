@@ -1,0 +1,200 @@
+.header {
+  background-color: #fff;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    height: 144px;
+    margin: 0 auto;
+    padding: 0 1rem; 
+  }
+
+  .linha {
+    border-bottom: 1px solid #eaeaea;
+  }
+
+  .benefitsBar {
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+    color: #9F9F9F;
+    width: 100%;
+    height: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+    padding: 0 2rem;
+    text-align: center;
+  }
+
+  .benefitItem {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 3px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .highlight {
+    color: #3019B2;
+    font-weight: bold;
+  }
+
+  .logo img {
+    width: 139px;
+    height: 41px;
+  }
+
+  .searchBar {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 18px;
+    padding: 0.5rem 1rem;
+    background-color: #F6F5F2;
+    position: relative;
+    width: 630px;
+    height: 44px;
+  }
+
+  .searchInput {
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #F6F5F2;
+  }
+
+  .searchIcon {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+  }
+
+  .iconsContainer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .iconsContainer .icon {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+  }
+
+  .navbar {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    font-weight: 400;
+    color: #9F9F9F;
+  }
+
+  .navList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+  }
+
+  .navItem .icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  
+  @media (max-width: 1024px) {
+    .container {
+      flex-direction: column;
+      height: auto;
+      padding: 2rem;
+    }
+
+    .searchBar {
+      width: 100%;
+    }
+
+    .benefitsBar {
+      flex-wrap: wrap; 
+      font-size: 10px;
+      padding:  2rem;
+      gap: 8px; 
+      height: auto; 
+      margin-top: 10px;
+    }
+
+    .iconsContainer {
+      margin-top: 20px;
+      gap: 12px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .searchBar {
+      margin-top: 1rem;
+    }
+
+    .navList {
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .benefitsBar {
+      font-size: 10px;
+      padding: 0.5rem;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .searchBar {
+      flex-direction: column;
+      height: auto;
+      padding: 0.5rem;
+    }
+
+    .benefitsBar {
+      gap: 2px;
+      font-size: 7px;
+     
+    }
+
+    .iconsContainer {
+      justify-content: center;
+    }
+
+    .navbar {
+      font-size: 12px;
+      padding: 0.5rem;
+    }
+
+    .navList {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+}

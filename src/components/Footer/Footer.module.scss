@@ -1,0 +1,162 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 60px 100px;
+  background-color: #f4f4f4;
+  font-family: "Outfit", sans-serif;
+  border-top: 1px solid #ddd;
+
+  .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .logo {
+      width: 168px; 
+      height: 48px;
+      margin-bottom: 20px;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .socialIcons {
+      display: flex;
+      gap: 15px;
+
+      img {
+        width: 24px;
+        height: 23px;
+        cursor: pointer;
+        transition: transform 0.2s;
+      }
+    }
+  }
+
+  .divider {
+    width: 2px;
+    height: 200px; 
+    background-color: #bdbdbd;
+    margin: 0 40px;
+  }
+
+  .right {
+    flex: 2;
+    display: flex;
+    justify-content: space-around; 
+    gap: 50px; 
+
+    .column {
+      flex: 1; 
+      h4 {
+        font-size: 18px;
+        color: #222;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+          font-size: 16px;
+          color: #9c9c9c;
+          margin-bottom: 8px;
+          cursor: pointer;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  background-color: #FFFFFF; 
+  padding: 15px 0; 
+  font-size: 13px; 
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .left {
+    flex: 1;
+    margin-left: 0;
+    text-align: left; 
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .left h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .left p {
+    font-size: 14px;
+  }
+
+  .right {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+
+  .form {
+    flex-direction: column; 
+    width: 100%;
+    gap: 16px; 
+  }
+
+  .input {
+    width: 100%; 
+    max-width: 250px; 
+    height: 40px;
+    padding-left: 20px;
+  }
+
+  .button {
+    width: 100%;
+    max-width: 250px; 
+    height: 45px;
+    margin-left: 0; 
+  }
+
+  .checkboxContainer {
+    display: flex; 
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .checkbox {
+    margin-right: 10px;
+  }
+
+  label {
+    font-size: 14px;
+    color: #fff;
+  }
+
+  
+  .divider {
+    display: none;
+  }
+}
