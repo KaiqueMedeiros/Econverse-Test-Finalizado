@@ -41,6 +41,11 @@ yarn install
 # 3. Rodar o Projeto
 yarn start
 
+## Caso o CORS recuse a conexão com o JSON:
+
+Como desbloquear o acesso ao CORS Anywhere:
+Clique no seguinte link para desbloquear o acesso temporário: https://cors-anywhere.herokuapp.com/corsdemo (clique para solicitar acesso temporario ao servidor.)
+Após desbloquear o acesso, você poderá testar a aplicação localmente sem problemas.
 
 # Aprendizagens adquiridas no Desenvolvimento
 Durante o desenvolvimento deste projeto, enfrentei alguns desafios que foram uma boa oportunidade de aprendizado. Abaixo, estão os principais desafios e as lições que tirei:
