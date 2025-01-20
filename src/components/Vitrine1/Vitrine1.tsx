@@ -25,7 +25,7 @@ const Vitrine1: React.FC = () => {
       try {
         
         const response = await fetch(
-          "https://api.allorigins.win/raw?url=" + encodeURIComponent("https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json")
+          "https://cors-anywhere.herokuapp.com/https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json"
         );
         const data = await response.json();
         console.log("Dados recebidos:", data);
