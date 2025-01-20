@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# Econverse Test Finalizado
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é o repositório do projeto **Econverse Test Finalizado**, desenvolvido por **Kaique Medeiros**.
 
-## Available Scripts
+# Link da aplicação:
 
-In the project directory, you can run:
+(Após a análise caso queiram que eu tire o site do ar, basta pedir que o removerei, já fiz o deploy do mesmo para facilitar a visualização do desafio cumprido.)
 
-### `yarn start`
+## Descrição
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Desenvolvido em React, SCSS, TypeScript e outras tecnologias conforme solicitado. Ele contém um layout responsivo, completamente compatível com dispositivos móveis.
+Seguir exatamente o FIGMA disponibilizado foi desafiador, mas muito bacana, ter espaços, cores e layouts exatos para serem seguidos foi uma experiência muito boa.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tecnologias Utilizadas
 
-### `yarn test`
+- **React**
+- **TypeScript**
+- **CSS/SCSS**
+- **Node.js**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Requisitos
 
-### `yarn build`
+Antes de começar, verifique se você tem as seguintes ferramentas instaladas:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Node.js** (recomendado versão 16.0 ou superior)
+- **Yarn** (gerenciador de pacotes)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Se você ainda não tem o **Yarn** instalado, você pode instalá-lo com o comando:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install --global yarn
 
-### `yarn eject`
+# 1. Instruções para Compilar e Rodar o Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+git clone https://github.com/KaiqueMedeiros/Econverse-Test-Finalizado.git
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 2. Instalar Dependências
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+cd Econverse-Test-Finalizado
+yarn install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# 3. Rodar o Projeto
+yarn start
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Aprendizagens adquiridas no Desenvolvimento
+Durante o desenvolvimento deste projeto, enfrentei alguns desafios que foram uma boa oportunidade de aprendizado. Abaixo, estão os principais desafios e as lições que tirei:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. ## Uso do Cors Anywhere para Consumir APIs Externas
+Outro desafio foi o consumo de APIs externas que estavam bloqueadas por CORS (Cross-Origin Resource Sharing). Para resolver isso, utilizei o serviço Cors Anywhere para contornar a limitação de CORS e testar o consumo da API durante o desenvolvimento.
+
+2. ## Configuração de Responsividade e Layout Mobile
+A adaptação para diferentes tamanhos de tela e a criação de um layout responsivo foi um desafio interessante. Tive que ajustar o design para garantir que a interface funcionasse corretamente em dispositivos móveis. Isso envolveu o uso de Media Queries e ajustes em componentes como o Footer e o formulário.
+
+3. ## Pesquisar com eficiência.
+
+Grande parte do desenvolvimento esta em como pesquisar corretamente para conseguir realizar os desafios propostos, e é nosso maior aliado quando estamos na resolução de problemas.
+No meu caso, quando me deparei com desafios como o uso do useState e a configuração do CORS, a pesquisa foi essencial para encontrar as soluções corretas.
