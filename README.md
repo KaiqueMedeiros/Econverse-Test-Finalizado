@@ -2,7 +2,7 @@
 
 Este é o repositório do projeto **Econverse Test Finalizado**, desenvolvido por **Kaique Medeiros**.
 
-# Link da aplicação:
+# Link da aplicação: https://econverse-test-kaiquemedeiros.netlify.app
 
 (Após a análise caso queiram que eu tire o site do ar, basta pedir que o removerei, já fiz o deploy do mesmo para facilitar a visualização do desafio cumprido.)
 
